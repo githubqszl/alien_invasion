@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.3.2 创建多行外星人">
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.3.3 创建外星人群">
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658057354907</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="13.3.3 创建外星人群">
+      <created>1658058046638</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658058046638</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +261,8 @@
     <MESSAGE value="12.8.7创建函数update_bullets()" />
     <MESSAGE value="12.8.8创建函数fire_bullet()" />
     <MESSAGE value="13.3.2 创建多行外星人" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.3.2 创建多行外星人" />
+    <MESSAGE value="13.3.3 创建外星人群" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.3.3 创建外星人群" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
