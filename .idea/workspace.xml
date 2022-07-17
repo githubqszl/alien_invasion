@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.6.2 允许不断移动">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.6.3 左右移动">
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658035387751</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="12.6.3 左右移动">
+      <created>1658037128201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658037128201</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +193,8 @@
     <MESSAGE value="12.5.1函数check_events()" />
     <MESSAGE value="12.6.1响应按键" />
     <MESSAGE value="12.6.2 允许不断移动" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.6.2 允许不断移动" />
+    <MESSAGE value="12.6.3 左右移动" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.6.3 左右移动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
