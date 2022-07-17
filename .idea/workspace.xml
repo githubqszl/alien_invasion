@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.3.5 添加行">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.4.1 向右移动外星人" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -246,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658061407299</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="13.4.1 向右移动外星人">
+      <created>1658062033020</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658062033020</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +282,8 @@
     <MESSAGE value="13.3.2 创建多行外星人" />
     <MESSAGE value="13.3.3 创建外星人群" />
     <MESSAGE value="13.3.5 添加行" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.3.5 添加行" />
+    <MESSAGE value="13.4.1 向右移动外星人" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.4.1 向右移动外星人" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
