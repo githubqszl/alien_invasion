@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.4.2 创建表示外星人移动方向的设置">
-      <change beforePath="$PROJECT_DIR$/alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.4.3 检查外星人是否撞到了屏幕边缘">
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658062278516</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="13.4.3 检查外星人是否撞到了屏幕边缘">
+      <created>1658062680759</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658062680759</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +301,8 @@
     <MESSAGE value="13.3.5 添加行" />
     <MESSAGE value="13.4.1 向右移动外星人" />
     <MESSAGE value="13.4.2 创建表示外星人移动方向的设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.4.2 创建表示外星人移动方向的设置" />
+    <MESSAGE value="13.4.3 检查外星人是否撞到了屏幕边缘" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.4.3 检查外星人是否撞到了屏幕边缘" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
