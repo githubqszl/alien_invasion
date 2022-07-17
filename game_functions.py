@@ -14,6 +14,12 @@ def check_events(ship):
             #KEYDOWN指的是按下键盘
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
+                ship.moving_right = True
+
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_RIGHT:
+                ship.moving_right = False
+
                 #向右移动飞船
                 ship.rect.centerx += 1
 
