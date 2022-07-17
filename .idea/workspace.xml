@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.4.4 向下移动外星人群并改变移动方向">
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.5.1 检查子弹与外星人的碰撞">
       <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658063353916</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="13.5.1 检查子弹与外星人的碰撞">
+      <created>1658063777173</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658063777173</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +317,8 @@
     <MESSAGE value="13.4.2 创建表示外星人移动方向的设置" />
     <MESSAGE value="13.4.3 检查外星人是否撞到了屏幕边缘" />
     <MESSAGE value="13.4.4 向下移动外星人群并改变移动方向" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.4.4 向下移动外星人群并改变移动方向" />
+    <MESSAGE value="13.5.1 检查子弹与外星人的碰撞" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.5.1 检查子弹与外星人的碰撞" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
