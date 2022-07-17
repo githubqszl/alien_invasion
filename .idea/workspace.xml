@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.8.7创建函数update_bullets()">
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.8.8创建函数fire_bullet()">
+      <change afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/alien.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658050274049</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="12.8.8创建函数fire_bullet()">
+      <created>1658054176688</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658054176688</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +242,8 @@
     <MESSAGE value="12.8.1添加子弹设置，12.8.2创建Bullet类，12.8.3将子弹存储到编组中，12.8.4开火" />
     <MESSAGE value="12.8.6限制子弹数量" />
     <MESSAGE value="12.8.7创建函数update_bullets()" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.8.7创建函数update_bullets()" />
+    <MESSAGE value="12.8.8创建函数fire_bullet()" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.8.8创建函数fire_bullet()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
