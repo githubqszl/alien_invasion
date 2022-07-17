@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.6.3 左右移动">
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.6.5 限制飞船的活动范围,12.6.6重构check_events()">
+      <change afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658037886050</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="12.6.5 限制飞船的活动范围,12.6.6重构check_events()">
+      <created>1658039023652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658039023652</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +210,8 @@
     <MESSAGE value="12.6.1响应按键" />
     <MESSAGE value="12.6.2 允许不断移动" />
     <MESSAGE value="12.6.3 左右移动" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.6.3 左右移动" />
+    <MESSAGE value="12.6.5 限制飞船的活动范围,12.6.6重构check_events()" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.6.5 限制飞船的活动范围,12.6.6重构check_events()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
