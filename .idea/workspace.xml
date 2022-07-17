@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="12.8.8创建函数fire_bullet()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.3.2 创建多行外星人">
       <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658056680197</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="13.3.2 创建多行外星人">
+      <created>1658057354907</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658057354907</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +253,8 @@
     <MESSAGE value="12.8.6限制子弹数量" />
     <MESSAGE value="12.8.7创建函数update_bullets()" />
     <MESSAGE value="12.8.8创建函数fire_bullet()" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.8.8创建函数fire_bullet()" />
+    <MESSAGE value="13.3.2 创建多行外星人" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.3.2 创建多行外星人" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
