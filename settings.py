@@ -12,6 +12,7 @@ class Settings():
         #飞船的设置
         #这样，每次移动1.5个像素，而不是1个像素
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
 
         #子弹设置
         self.bullet_speed_factor = 3
