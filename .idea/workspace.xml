@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.6.3 有外星人到达屏幕底端">
-      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_stats.py" afterDir="false" />
-    </list>
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.7 确定应运行游戏的哪些部分" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658137596511</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="13.6.4 游戏结束">
+      <created>1658138092454</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1658138092454</updated>
+    </task>
+    <task id="LOCAL-00033" summary="13.7 确定应运行游戏的哪些部分">
+      <created>1658138302491</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1658138302491</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,8 +342,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="第3次commit" />
-    <MESSAGE value="第4次commit,12.4.1创建ship类" />
     <MESSAGE value="第5次commit,12.4.2-在屏幕上绘制飞船" />
     <MESSAGE value="12.5.1函数check_events()" />
     <MESSAGE value="12.6.1响应按键" />
@@ -356,7 +365,9 @@
     <MESSAGE value="13.6.1 检测外星人和飞船碰撞" />
     <MESSAGE value="13.6.2 响应外星人和飞船碰撞" />
     <MESSAGE value="13.6.3 有外星人到达屏幕底端" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.6.3 有外星人到达屏幕底端" />
+    <MESSAGE value="13.6.4 游戏结束" />
+    <MESSAGE value="13.7 确定应运行游戏的哪些部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.7 确定应运行游戏的哪些部分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
