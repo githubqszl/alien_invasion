@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="13.7 确定应运行游戏的哪些部分" />
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="14.1 添加Play按钮">
+      <change afterPath="$PROJECT_DIR$/button.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -333,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658138338760</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="14.1 添加Play按钮">
+      <created>1658153596600</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1658153596600</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,7 +358,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="第5次commit,12.4.2-在屏幕上绘制飞船" />
     <MESSAGE value="12.5.1函数check_events()" />
     <MESSAGE value="12.6.1响应按键" />
     <MESSAGE value="12.6.2 允许不断移动" />
@@ -374,7 +382,8 @@
     <MESSAGE value="13.6.3 有外星人到达屏幕底端" />
     <MESSAGE value="13.6.4 游戏结束" />
     <MESSAGE value="13.7 确定应运行游戏的哪些部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.7 确定应运行游戏的哪些部分" />
+    <MESSAGE value="14.1 添加Play按钮" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.1 添加Play按钮" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
