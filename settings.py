@@ -24,9 +24,9 @@ class Settings():
         #以什么样的速度加快游戏节奏
         self.speedup_scale = 1.1
 
-        self.intialize_dynamic_settings()
+        self.initialize_dynamic_settings()
 
-    def intialize_dynamic_settings(self):
+    def initialize_dynamic_settings(self):
         """初始化随游戏进行而变化的设置"""
 
         # 书上是1.5，但对我来说太快了，我改小了一点
