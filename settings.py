@@ -2,7 +2,7 @@ class Settings():
     """存储《外星人入侵》的所有设置的类"""
 
     def __init__(self):
-        """初始化游戏的设置"""
+        """初始化游戏的静态设置"""
         #屏幕设置
         #我的屏幕按书上那样1200*800会太大，显示不全
         self.screen_width = 800
@@ -10,21 +10,39 @@ class Settings():
         self.bg_color = (230,230,230)
 
         #飞船的设置
-        #这样，每次移动1.5个像素，而不是1个像素
-        self.ship_speed_factor = 1.5
         self.ship_limit = 3
 
         #子弹设置
-        self.bullet_speed_factor = 3
         self.bullet_width = 30
         self.bullet_height = 15
         self.bullet_color = 60,60,60
         self.bullets_allowed = 3
 
         #外星人设置
-        self.alien_speed_factor = 1
         self.fleet_drop_speed = 10
-        #fleet_direction为1表示向右移，为-1表示向左移
+
+        #以什么样的速度加快游戏节奏
+        self.speedup_scale = 1.1
+
+        self.intialize_dynamic_settings()
+
+    def intialize_dynamic_settings(self):
+        """初始化随游戏进行而变化的设置"""
+
+        # 书上是1.5，但对我来说太快了，我改小了一点
+        self.ship_speed_factor = 0.7
+        self.bullet_speed_factor = 3
+        #书上是1，但对我来说太快了，我改小了一点
+        self.alien_speed_factor = 0.5
+
+        # fleet_direction为1表示向右移，为-1表示向左移
         self.fleet_direction = 1
+
+    def increase_speed(self):
+        """提高速度设置"""
+        self.ship_speed_factor *= self.speedup_scale
+        self.bullet_speed_factor *= self.speedup_scale
+        self.alien_speed_factor *= self.speedup_scale
+
 
 
