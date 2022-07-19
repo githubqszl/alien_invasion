@@ -1,6 +1,9 @@
 import sys
 #从模块time中导入函数sleep()
 from time import sleep
+
+from pygame import mixer
+
 import pygame
 
 import alien
@@ -8,6 +11,7 @@ import ship
 
 from bullet import Bullet
 from alien import Alien
+
 
 def check_keydown_events(event, ai_settings, screen, ship, bullets):
     """响应按键"""
@@ -56,6 +60,14 @@ def check_play_button(ai_settings, screen, stats, sb, play_button, ship, aliens,
     """在玩家单击Play按钮时开始新游戏"""
     button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
     if button_clicked and not stats.game_active:
+
+        #发出声音
+        mixer.init()
+        mixer.music.load("game_start.wav")
+        mixer.music.set_volume(0.7)
+        mixer.music.play()
+        #声音一直在播放吧？
+
         #重置游戏设置
         ai_settings.initialize_dynamic_settings()
 
@@ -216,6 +228,10 @@ def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
     else:
         stats.game_active = False
         pygame.mouse.set_visible(True)
+        #发出效果音
+        mixer.music.load("game_over.wav")
+        mixer.music.set_volume(0.7)
+        mixer.music.play()
 
 
 def check_aliens_bottom(ai_settings, screen, stats, sb, ship, aliens, bullets):

@@ -8,6 +8,8 @@ from button import Button
 from ship import Ship
 from alien import Alien
 
+from pygame import mixer
+
 #gf是别名，为了简化，类似于sql
 import game_functions as gf
 
@@ -48,5 +50,6 @@ def run_game():
             gf.update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets)
 
         gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button)
+
 
 run_game()

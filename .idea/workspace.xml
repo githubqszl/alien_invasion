@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="14.3.9 显示余下的飞船数（至此全完成了）">
-      <change afterPath="$PROJECT_DIR$/game-over.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mixkit-pixel-chiptune-explosion-1692.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/piano-sequence-66644.mp3" afterDir="false" />
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="14-1-可以播放声音1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.my">
+  <component name="RunManager" selected="Python.alien_invasion">
     <configuration name="alien_invasion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="alien_invasion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.my" />
         <item itemvalue="Python.alien_invasion" />
+        <item itemvalue="Python.my" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658025149310</updated>
-    </task>
-    <task id="LOCAL-00003" summary="第3次commit">
-      <created>1658025722899</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658025722899</updated>
     </task>
     <task id="LOCAL-00004" summary="第4次commit,12.4.1创建ship类">
       <created>1658029071497</created>
@@ -466,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658219906841</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="14-1-可以播放声音1">
+      <created>1658227909685</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1658227909685</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="13.5.1 检查子弹与外星人的碰撞" />
     <MESSAGE value="13.5.3 生成新的外星人群" />
     <MESSAGE value="13.5.5 重构update_bullets()" />
     <MESSAGE value="13.6.1 检测外星人和飞船碰撞" />
@@ -507,7 +504,8 @@
     <MESSAGE value="14.3.7 最高得分" />
     <MESSAGE value="14.3.8 显示等级" />
     <MESSAGE value="14.3.9 显示余下的飞船数（至此全完成了）" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.3.9 显示余下的飞船数（至此全完成了）" />
+    <MESSAGE value="14-1-可以播放声音1" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-1-可以播放声音1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
