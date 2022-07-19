@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="14.3.4 将消灭的每个外星人的点数都计入得分">
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+    <list default="true" id="5fd639f9-0155-4101-947d-7245cc502dc3" name="Changes" comment="14.3.5 提高点数">
+      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658215447476</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="14.3.5 提高点数">
+      <created>1658216117564</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1658216117564</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="13.3.5 添加行" />
     <MESSAGE value="13.4.1 向右移动外星人" />
     <MESSAGE value="13.4.2 创建表示外星人移动方向的设置" />
     <MESSAGE value="13.4.3 检查外星人是否撞到了屏幕边缘" />
@@ -460,7 +466,8 @@
     <MESSAGE value="14.3.1 显示得分" />
     <MESSAGE value="14.3.3 在外星人被消灭时更新得分" />
     <MESSAGE value="14.3.4 将消灭的每个外星人的点数都计入得分" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.3.4 将消灭的每个外星人的点数都计入得分" />
+    <MESSAGE value="14.3.5 提高点数" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.3.5 提高点数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
